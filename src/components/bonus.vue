@@ -3,7 +3,7 @@
     <div v-for="(item, index) in list" 
       v-text="item" 
       :class="index === activeIndex ? 'cell selected' : index === 'cell_selectBtn' ? 'cell selectBtn' : 'cell'"
-      @click="bonus">
+      @click="index === 'cell_selectBtn' ? bonus() : ''">
     </div>
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
         "7_cell": "苹果ipad一台",
         "0_cell": "谢谢参与",
         "5_cell": "淘宝10元购物券",
-        cell_selectBtn: "立即抽奖",
+        "cell_selectBtn": "立即抽奖",
         "1_cell": "100元充值卡一张",
         "4_cell": "格力空调一台",
         "3_cell": "洗衣机一台",
