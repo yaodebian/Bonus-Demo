@@ -1,6 +1,14 @@
 # 抽奖九宫格Demo
 vuejs实现抽奖九宫格Demo
 
+目录
+----
+[写在前面](https://github.com/yaodebian/Bonus-Demo#写在前面)<br>
+[开发环境](https://github.com/yaodebian/Bonus-Demo#开发环境)<br>
+[思路](https://github.com/yaodebian/Bonus-Demo#思路)<br>
+[代码](https://github.com/yaodebian/Bonus-Demo#代码)<br>
+[项目运行结果](https://github.com/yaodebian/Bonus-Demo#项目运行结果)<br>
+
 写在前面
 ----
 最近做了一下网易游戏的笔试题，最后一道题是叫你设计一个抽奖九宫格动画，当时有思路但是有很大的瑕疵，故而有了这次git。
